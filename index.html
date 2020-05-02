@@ -10,12 +10,13 @@
    <meta name="keywords"
       content="portfolio,website,personal website,github,projects,computer science and engineering" />
    <meta name="author" content="Sahil Deep Mehra" />
-   <meta property="og:site_name" content="sahil981.github.io"/>
-   <meta property="og:title" content="Sahil Deep Mehra"/>
-   <meta property="og:description" content="Software Engineer"/>
-   <meta property="og:image" content="https://qph.fs.quoracdn.net/main-raw-71950207-nqnyrgadpuhhxtcqwnopeykfhivfiuxo.jpeg">
+   <meta property="og:site_name" content="sahil981.github.io" />
+   <meta property="og:title" content="Sahil Deep Mehra" />
+   <meta property="og:description" content="Software Engineer" />
+   <meta property="og:image"
+      content="https://qph.fs.quoracdn.net/main-raw-71950207-nqnyrgadpuhhxtcqwnopeykfhivfiuxo.jpeg">
    <meta property="og:url" content="sahil981.github.io">
-   <meta property="og:type" content="portfolio"/>
+   <meta property="og:type" content="portfolio" />
    <!--Social Media icons-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -60,6 +61,8 @@
                      <li><a href="#" data-nav-section="about">About</a></li>
                      <li><a href="#" data-nav-section="skills">Skills</a></li>
                      <li><a href="#" data-nav-section="experience">Work Experience</a></li>
+                     <li><a href="#" data-nav-section="opensource">Articles</a></li>
+                     <li><a href="#" data-nav-section="projects">Projects</a></li>
                      <li><a href="#" data-nav-section="contact">Contact</a></li>
                   </ul>
                </div>
@@ -423,89 +426,130 @@
                </div>
             </section>
 
+            <section class="colorlib-opensource" data-section="opensource">
+               <div class="colorlib-narrow-content">
+                  <div class="row">
+                     <div class="col-md-8 col-md-offset-2 col-md-pull-2 animate-box" data-animate-effect="fadeInLeft">
+                        <h2>Articles</h2>
+                        <hr>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="timeline-centered">
+                        <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                           <div class="timeline-entry-inner">
+                              <blockquote class="embedly-card">
+                                 <h4><a href="https://medium.com/@sahildeepmehra/hoisting-in-javascript-19270db3dcad">Hoisting
+                                       In Javascript</a></h4>
+                                 <p>Javascript as a language has various weird concepts, and one of such concept is
+                                    Hoisting. Have a look at this example: console.log(a); //line1var a = 'Javascript';
+                                    //line2console.log(a); //line3 As per other programming languages, you can't access
+                                    a variable unless we have defined it, if we do so we get the runtime error.</p>
+                              </blockquote>
+                           </div>
+                        </article>
+                        <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                           <div class="timeline-entry-outer">
+                              <blockquote class="embedly-card" data-card-controls="0">
+                                 <h4><a href="https://medium.com/@sahildeepmehra/closures-in-javascript-b00873a840a6">Closures
+                                       In Javascript</a></h4>
+                                 <p>Closures in Javascript is a concept through which we can bundle the data and the
+                                    functions that operate on the data. You would think that, is it not the same as
+                                    encapsulation in OOP( object-oriented programming)? Yes, closure is an example of
+                                    encapsulation.</p>
+                              </blockquote>
+                           </div>
+                        </article>
+                     </div>
+                  </div>
+               </div>
+
+
+            </section>
+
             <!--------------Projects------------------>
-            <div>
-               <section class="colorlib-about" data-section="about">
-                  <div class="colorlib-narrow-content">
-                     <div class="row">
-                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                           <div class="col-md-12">
-                              <div class="about-desc">
-                                 <h2>Projects</h2>
-                                 <hr>
-                                 <!-- Project 1 starts -->
-                                 <h4><a href="https://app.jumpstartfest.com/" target="_blank">Jumpstart Fest</a></h4>
-                                 <p>Made a web application for the German Book Office New Delhi. JUMPSTART is India's
-                                    only
-                                    annual congress of children's content creators. This has courses user can buy by
-                                    making
-                                    payment and unlocks studying material included pdf’s and videos.
-                                    Role: To make complete front-end application for the end user by integrating the
-                                    backend API’s <br>
-                                    <strong>Technologies Used: </strong>AngularJS, html, css, javascript , bootstrap.
-                                 </p>
-                                 <hr>
+            <section class="colorlib-about" data-section="projects">
+               <div class="colorlib-narrow-content">
+                  <div class="row">
+                     <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-12">
+                           <div class="about-desc">
+                              <h2>Projects</h2>
+                              <hr>
+                              <!-- Project 1 starts -->
+                              <h4><a href="https://app.jumpstartfest.com/" target="_blank">Jumpstart Fest</a></h4>
+                              <p>Made a web application for the German Book Office New Delhi. JUMPSTART is India's
+                                 only
+                                 annual congress of children's content creators. This has courses user can buy by
+                                 making
+                                 payment and unlocks studying material included pdf’s and videos.
+                                 Role: To make complete front-end application for the end user by integrating the
+                                 backend API’s <br>
+                                 <strong>Technologies Used: </strong>AngularJS, html, css, javascript , bootstrap.
+                              </p>
+                              <hr>
 
-                                 <!-- Project 2 starts -->
-                                 <h4><a href="https://hidden-island-87901.herokuapp.com/" target="_blank">Flickr Photos
-                                       Search</a>
-                                 </h4>
-                                 <p>Developed an angular 7 based photo search web application. using flickr API's. This
-                                    application searches images and saves queries using cookies so that the next time
-                                    they come back they can access their recent queries. <br>
-                                    <strong>Technologies Used: </strong>Angular 7, html, css, javascript , bootstrap.
-                                 </p>
-                                 <iframe
-                                    src="https://ghbtns.com/github-btn.html?user=sahil981&repo=flickr-search&type=star&count=true"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                                 <iframe
-                                    src="https://ghbtns.com/github-btn.html?user=sahil981&repo=flickr-search&type=watch&count=true&v=2"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                                 <iframe
-                                    src="https://ghbtns.com/github-btn.html?user=twbs&repo=flickr-search&type=fork&count=true"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <!-- Project 2 starts -->
+                              <h4><a href="https://hidden-island-87901.herokuapp.com/" target="_blank">Flickr Photos
+                                    Search</a>
+                              </h4>
+                              <p>Developed an angular 7 based photo search web application. using flickr API's. This
+                                 application searches images and saves queries using cookies so that the next time
+                                 they come back they can access their recent queries. <br>
+                                 <strong>Technologies Used: </strong>Angular 7, html, css, javascript , bootstrap.
+                              </p>
+                              <iframe
+                                 src="https://ghbtns.com/github-btn.html?user=sahil981&repo=flickr-search&type=star&count=true"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <iframe
+                                 src="https://ghbtns.com/github-btn.html?user=sahil981&repo=flickr-search&type=watch&count=true&v=2"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <iframe
+                                 src="https://ghbtns.com/github-btn.html?user=twbs&repo=flickr-search&type=fork&count=true"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-                                 <iframe src="https://ghbtns.com/github-btn.html?user=sahil981&type=follow&count=true"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                                 <hr>
+                              <iframe src="https://ghbtns.com/github-btn.html?user=sahil981&type=follow&count=true"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <hr>
 
-                                 <!-- Project 3 starts -->
-                                 <h4><a href="https://github.com/sahil981/quotes-app">Quotes App</a></h4>
-                                 <p>A node.js application that scraps quotes from a website(goodreads.com) and stores in
-                                    local monogoDB database. <br>
-                                    <strong>Technologies Used:
-                                    </strong>node.js(express), MongoDB(mongoose)
-                                 </p>
-                                 <iframe
-                                    src="https://ghbtns.com/github-btn.html?user=sahil981&repo=quotes-app&type=star&count=true"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                                 <iframe
-                                    src="https://ghbtns.com/github-btn.html?user=sahil981&repo=quotes-app&type=watch&count=true&v=2"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                                 <iframe
-                                    src="https://ghbtns.com/github-btn.html?user=twbs&repo=quotes-app&type=fork&count=true"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <!-- Project 3 starts -->
+                              <h4><a href="https://github.com/sahil981/quotes-app">Quotes App</a></h4>
+                              <p>A node.js application that scraps quotes from a website(goodreads.com) and stores in
+                                 local monogoDB database. <br>
+                                 <strong>Technologies Used:
+                                 </strong>node.js(express), MongoDB(mongoose)
+                              </p>
+                              <iframe
+                                 src="https://ghbtns.com/github-btn.html?user=sahil981&repo=quotes-app&type=star&count=true"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <iframe
+                                 src="https://ghbtns.com/github-btn.html?user=sahil981&repo=quotes-app&type=watch&count=true&v=2"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <iframe
+                                 src="https://ghbtns.com/github-btn.html?user=twbs&repo=quotes-app&type=fork&count=true"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
-                                 <iframe src="https://ghbtns.com/github-btn.html?user=sahil981&type=follow&count=true"
-                                    frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                                 <hr>
+                              <iframe src="https://ghbtns.com/github-btn.html?user=sahil981&type=follow&count=true"
+                                 frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                              <hr>
 
 
-                                 <h4><a href="https://heroesofcricket.com/" target="_blank">Heroes of Cricket</a></h4>
-                                 <p>The Heroes of Cricket is an app that aims to provide you with specific content for
-                                    each major cricket player. User can follow a player , see player specific
-                                    statistics, also includes live score, schedule and past matches of a league.<br>
-                                    <strong>Technologies Used: </strong>Angular 7, typescript, html, css , bootstrap,
-                                    Cordova
-                                 </p>
-                                 <hr>
-                              </div>
+                              <h4><a href="https://heroesofcricket.com/" target="_blank">Heroes of Cricket</a></h4>
+                              <p>The Heroes of Cricket is an app that aims to provide you with specific content for
+                                 each major cricket player. User can follow a player , see player specific
+                                 statistics, also includes live score, schedule and past matches of a league.<br>
+                                 <strong>Technologies Used: </strong>Angular 7, typescript, html, css , bootstrap,
+                                 Cordova
+                              </p>
+                              <hr>
                            </div>
                         </div>
                      </div>
                   </div>
-               </section>
-            </div>
+               </div>
+            </section>
             <!--------Contact---------->
             <section class="colorlib-contact" data-section="contact">
                <div class="colorlib-narrow-content">
@@ -566,7 +610,10 @@
       <!-- end:container-wrap -->
    </div>
    <!-- end:colorlib-page -->
+   <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
    <!-- jQuery -->
+
    <script src="js/jquery.min.js"></script>
    <!-- jQuery Easing -->
    <script src="js/jquery.easing.1.3.js"></script>
